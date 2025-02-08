@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSS Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+    
+    width: 300px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>VSS Simulator <class style="color:rgb(146, 146, 146);">by Josh</class></h2>
+
+    <section class="info-section">
+        <h3>What is VSS?</h3>
+        <p>Visual Snow Syndrome (VSS) is a neurological condition where people see static-like visual disturbances continuously. It can also include light sensitivity and afterimages.</p>
+        <a href="https://my.clevelandclinic.org/health/diseases/24444-visual-snow-syndrome" target="_blank">Learn more</a>
+    </section>
+
+    <section class="extension-info">
+        <h3>About This Extension</h3>
+        <p>I made this extension as a better way for my parents and friends to visualize exactly what me and thousands of other individuals suffer from. I hope this extension could be used to riase awareness to neurological conditions like VSS in the future.</p>
+    </section>
+    <section class="extension-settings">
+        <h3>Configuration</h3>
+        <hr>
+        <h4>Visual Snow</h4>
+        
+        <label for="intensity">Intensity:</label>
+        <input type="range" id="intensity" min="1" max="10" value="5">
+        <button id="toggle">Enable Snow</button>
+
+        <hr>
+        <h4>Flickering</h4>
+        <div>
+            <label for="flickerIntensitySlider">Intensity:</label>
+            <input type="range" id="flickerIntensitySlider" min="0" max="1" step="0.1" value="1">
+
+        </div>
+        <button id="flickerToggle">Enable Flickering</button>
+
+        <div>
+            <p>Warning: The  flickering effects could trigger seizures in individuals with photosensitive epilepsy.</p>
+        </div>
+        <hr>
+        <h4>More Soon...</h4>
+    </section>
+
+    <footer>
+        <p>Version 1 | Made by <a href="https://github.com/i-suck-at-most-stuff" target="_blank" style="text-decoration: none; color: inherit;">Josh</a></p>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>

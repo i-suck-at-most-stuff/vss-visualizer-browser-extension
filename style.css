@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: block;
+  }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .info-section, .extension-info, .extension-settings{
+    background: #2c2c2c;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #357ab7;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #bbb;
+  }
+  
